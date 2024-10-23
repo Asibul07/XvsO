@@ -1,6 +1,3 @@
-Here’s the revised README content, combining both sections for easy copying and pasting:
-
-```markdown
 # X vs O - Tic-Tac-Toe Game
 
 A simple yet intelligent **Tic-Tac-Toe** game built using **Angular**, **Bootstrap**, and **Bootstrap Icons**. The game supports both single-player (against AI) and two-player modes, and comes with a fully functional AI opponent that uses the **minimax algorithm** to play optimally.
