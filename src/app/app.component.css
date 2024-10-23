@@ -1,0 +1,68 @@
+.game-container {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 900;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+  /* border: rgb(255, 255, 255) 2px solid; */
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: rgb(255, 255, 255) 2px solid;
+  /* Light border for individual cells */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+}
+
+.cell:nth-child(1),
+.cell:nth-child(2),
+.cell:nth-child(3) {
+  border-top: none;
+}
+
+.cell:nth-child(1),
+.cell:nth-child(4),
+.cell:nth-child(7) {
+  border-left: none;
+}
+
+.cell:nth-child(7),
+.cell:nth-child(8),
+.cell:nth-child(9) {
+  border-bottom: none;
+}
+
+.cell:nth-child(3),
+.cell:nth-child(6),
+.cell:nth-child(9) {
+  border-right: none;
+}
+
+.switch-mode,
+.score{
+  font-size: 1.2rem;
+  color: white;
+  margin: 5px;
+}
+
+.message{
+  font-size: 1.5rem;
+
+}
